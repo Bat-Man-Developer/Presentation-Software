@@ -1,0 +1,243 @@
+/* Import main theme */
+@import url('./main.css');
+
+/* Home Interface Styles */
+
+:root {
+  /* Override module theme for home page */
+  --module-primary: var(--primary-color);
+  --module-secondary: var(--secondary-color);
+  --module-accent: var(--accent-blue);
+  --module-bg: var(--bg-primary);
+}
+
+body {
+  background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 50%, var(--primary-light) 100%);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.header {
+  text-align: center;
+  padding: clamp(2rem, 5vw, 4rem) 1rem clamp(1rem, 3vw, 2rem);
+}
+
+.main-title {
+  font-size: clamp(2rem, 6vw, 4.5rem);
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: clamp(0.5rem, 2vw, 1rem);
+  background: linear-gradient(45deg, var(--primary-color), var(--secondary-color), var(--accent-blue), var(--accent-orange));
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 3s ease-in-out infinite;
+  line-height: 1.1;
+}
+
+.subtitle {
+  font-size: clamp(1rem, 3vw, 1.8rem);
+  color: var(--text-secondary);
+  margin-bottom: clamp(0.5rem, 2vw, 1rem);
+  font-weight: 400;
+}
+
+.description {
+  font-size: clamp(0.9rem, 2.5vw, 1.2rem);
+  color: var(--text-tertiary);
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.presentations-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: clamp(1.5rem, 4vw, 2rem);
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: clamp(2rem, 5vw, 4rem) 1rem;
+}
+
+.presentation-card {
+  background: var(--bg-card);
+  border: 2px solid var(--border-light);
+  border-radius: var(--radius-xl);
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  text-align: center;
+  transition: all var(--transition-base);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  box-shadow: var(--shadow-light);
+}
+
+.presentation-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: var(--shadow-heavy);
+  border-color: var(--module-primary);
+}
+
+/* Module-specific card colors */
+.ai-card { --card-color: var(--primary-color); }
+.analytics-card { --card-color: var(--accent-orange); }
+.security-card { --card-color: var(--accent-red); }
+.literacy-card { --card-color: var(--secondary-color); }
+.excel-card { --card-color: var(--accent-green); }
+.techsupport-card { --card-color: var(--accent-blue); }
+
+/* New Cybersecurity Role Colors */
+.hardware-card { --card-color: #2c3e50; }
+.software-card { --card-color: #673ab7; }
+.network-card { --card-color: #1a237e; }
+.aisec-card { --card-color: #f50057; }
+
+/* Secretarial & Administration Role Colors */
+.secadmin-card { --card-color: #A0522D; }
+.report-card { --card-color: #B33939; }
+.seccyber-card { --card-color: #1A365D; }
+
+.ai-card:hover,
+.analytics-card:hover,
+.security-card:hover,
+.literacy-card:hover,
+.excel-card:hover,
+.techsupport-card:hover,
+.hardware-card:hover,
+.software-card:hover,
+.network-card:hover,
+.aisec-card:hover,
+.secadmin-card:hover,
+.report-card:hover,
+.seccyber-card:hover {
+  border-color: var(--card-color);
+  box-shadow: 0 20px 40px rgba(var(--card-color), 0.2);
+}
+
+.card-icon {
+  width: clamp(60px, 15vw, 80px);
+  height: clamp(60px, 15vw, 80px);
+  margin: 0 auto clamp(1rem, 3vw, 1.5rem);
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  font-weight: 600;
+  color: var(--text-inverse);
+  transition: all var(--transition-base);
+}
+
+/* Gradients for icons */
+.ai-icon { background: linear-gradient(45deg, var(--primary-color), var(--primary-hover)); }
+.security-icon { background: linear-gradient(45deg, var(--accent-red), #c62828); }
+.analytics-icon  { background: linear-gradient(45deg, var(--accent-orange), #ef6c00); }
+.literacy-icon { background: linear-gradient(45deg, var(--secondary-color), var(--secondary-hover)); }
+.excel-icon { background: linear-gradient(45deg, var(--accent-green), #0a5f32); }
+.techsupport-icon { background: linear-gradient(45deg, var(--accent-blue), #1565c0); }
+
+/* New Cybersecurity Role Icons */
+.hardware-icon { background: linear-gradient(45deg, #2c3e50, #4ca1af); }
+.software-icon { background: linear-gradient(45deg, #673ab7, #9c27b0); }
+.network-icon { background: linear-gradient(45deg, #1a237e, #0d47a1); }
+.aisec-icon { background: linear-gradient(45deg, #311b92, #f50057); }
+
+/* Secretarial & Administration Role Icons */
+.secadmin-icon { background: linear-gradient(45deg, #A0522D, #8B4513); }
+.report-icon { background: linear-gradient(45deg, #B33939, #8E2828); }
+.seccyber-icon { background: linear-gradient(45deg, #1A365D, #2C5282); }
+
+.presentation-card:hover .card-icon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.card-title {
+  font-size: clamp(1.2rem, 3.5vw, 1.8rem);
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: clamp(0.5rem, 2vw, 1rem);
+  line-height: 1.2;
+}
+
+.card-description {
+  font-size: clamp(0.85rem, 2.2vw, 1rem);
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: clamp(1rem, 3vw, 1.5rem);
+}
+
+.card-features {
+  list-style: none;
+  text-align: left;
+  margin-bottom: clamp(1rem, 3vw, 1.5rem);
+}
+
+.card-features li {
+  font-size: clamp(0.8rem, 2vw, 0.9rem);
+  color: var(--text-tertiary);
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.card-features li:before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  font-weight: 600;
+  color: var(--card-color);
+}
+
+.start-button {
+  background: var(--bg-primary);
+  border: 2px solid var(--card-color);
+  border-radius: var(--radius-full);
+  padding: clamp(0.7rem, 2.5vw, 1rem) clamp(1.5rem, 4vw, 2rem);
+  font-size: clamp(0.9rem, 2.5vw, 1.1rem);
+  font-weight: 600;
+  color: var(--card-color);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  text-transform: none;
+  width: 100%;
+  max-width: 200px;
+}
+
+.presentation-card:hover .start-button {
+  background: var(--card-color);
+  color: var(--text-inverse);
+  transform: scale(1.05);
+}
+
+.footer {
+  text-align: center;
+  padding: clamp(2rem, 5vw, 3rem) 1rem;
+  color: var(--text-tertiary);
+  font-size: clamp(0.8rem, 2vw, 1rem);
+  border-top: 1px solid var(--border-light);
+  margin-top: var(--space-3xl);
+}
+
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .presentations-container {
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 1.5rem 0.5rem 1rem;
+  }
+  
+  .presentations-container {
+    padding: 1.5rem 0.5rem;
+  }
+}
