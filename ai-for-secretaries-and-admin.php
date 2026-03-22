@@ -20,7 +20,7 @@
 <body>
     <div class="presentation-container">
         <div class="slide-counter">
-            <span id="currentSlide">1</span> / <span id="totalSlides">20</span>
+            <span id="currentSlide">1</span> / <span id="totalSlides">24</span>
         </div>
 
         <div class="slide active">
@@ -35,6 +35,78 @@
                     <h3>Practical, Hands-on Workshop</h3>
                     <p>Learn how to use Artificial Intelligence to streamline your workflow, manage communications, and elevate your administrative career.</p>
                 </div>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h1>Foundations of Business Communication</h1>
+            <p>Before exploring AI, we must master the fundamentals. Communication is a two-way process of giving, receiving, or exchanging information so that it is completely understood by both parties.</p>
+            
+            <h2>What is a Business Report?</h2>
+            <p>A business report is a formal document summarizing facts, progress, investigations, or enquiries. Reports deliver facts, assess situations, and provide concrete recommendations.</p>
+            
+            <div class="highlight">
+                <h3>Why Do We Write Reports?</h3>
+                <ul>
+                    <li>To enable us to keep accurate records for the organization.</li>
+                    <li>To inform all interested stakeholders, managers, and funders.</li>
+                    <li>To assess failures and successes to improve future projects.</li>
+                    <li>To communicate clear information that encourages action and learning.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h1>Essential Business Reports for Administrators</h1>
+            <p>Different situations require different reporting formats. Knowing which to use is a core administrative skill.</p>
+            
+            <div class="two-column">
+                <div>
+                    <ul>
+                        <li><strong>Progress Reports:</strong> Relates activities to objectives. Explains what is complete, what is currently in progress, and what work remains to be done.</li>
+                        <li><strong>Business Trip Reports:</strong> Gives an overview of what transpired during a trip. Emphasizes the results, unexpected observations, and recommendations.</li>
+                        <li><strong>Incident Reports:</strong> A factual, written statement of events (Who, What, When, Where, Why) to ascertain root causes and prevent recurrence.</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><strong>Meeting Reports:</strong> Concentrates on the purpose and results of a meeting in terms of progress towards objectives. Highlights pending issues and action items.</li>
+                        <li><strong>Recommendation/Justification Reports:</strong> Defends changes in policy or procedure. Focuses on answering "why should we?" by providing supporting evidence.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h1>The Art of Minute Taking</h1>
+            <div class="xhosa-proverb">
+                "Ukuva asikokuqonda"
+                <br>
+                <small>(To hear is not to understand - Emphasizing the need for active listening and accurate recording)</small>
+            </div>
+            
+            <p>The minute taker plays a vital role. Minutes are a permanent, formal record of what went on in a meeting, conveying information and reminding members of future actions. They are considered legal documents once approved.</p>
+            
+            <h2>Essential Skills for the Minute Taker:</h2>
+            <ul>
+                <li><strong>Active Listening:</strong> Understanding the real point, clarifying information, and avoiding emotional interference.</li>
+                <li><strong>Streamlined Note-Taking:</strong> Using the sequential method (key words on the left, details on the right), eliminating small connecting words, and using shorthand symbols.</li>
+                <li><strong>Organization:</strong> Preparing the agenda beforehand, establishing a clear order of business, and knowing the meeting's purpose.</li>
+            </ul>
+        </div>
+
+        <div class="slide">
+            <h1>Minute Styles & Best Practices</h1>
+            <p>Choosing the right style of minutes depends on the formality of the meeting and the organization's rules.</p>
+            
+            <ul>
+                <li><strong>Formal Minutes:</strong> Used for meetings governed by parliamentary procedure. Motions and resolutions must be recorded verbatim.</li>
+                <li><strong>Action (Informal) Minutes:</strong> Best for problem-solving or collaboration sessions. Focuses heavily on the action taken, the person responsible, and the deadlines.</li>
+            </ul>
+
+            <div class="highlight" style="border-left-color: var(--secondary-color);">
+                <h3>Recording Motions & Resolutions:</h3>
+                <p>Always record who made the motion, the exact wording (e.g., <em>"That Council approve..."</em>), and whether it was carried, defeated, or tabled. When drafting, ensure you ignore your own personal bias and record objectively.</p>
             </div>
         </div>
 
