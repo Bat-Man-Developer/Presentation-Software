@@ -32,7 +32,7 @@
                     <br>
                     <small>(The mouth cannot cross a river - meaning words spoken can be forgotten, but written words remain. We must document well.)</small>
                 </div>
-                <img src="" alt="Modern business meeting in South Africa with an AI transcription device on the table" class="slide-image">
+                <img src="assets/images/ai-for-report-writing-and-minute-taking/1.png" alt="Modern business meeting in South Africa with an AI transcription device on the table" class="slide-image">
                 <div class="highlight">
                     <h3>Interactive Training Workshop</h3>
                     <p>Mastering Artificial Intelligence to transcribe meetings, extract action items, and draft comprehensive reports with accuracy and cultural respect.</p>
@@ -44,7 +44,7 @@
             <h1>The Evolution of Documentation</h1>
             <p>For decades, minute taking and report writing have required intense manual effort, often taking professionals away from active participation in strategic discussions.</p>
             
-            <img src="" alt="Split screen: One side showing an overwhelmed administrator taking frantic notes, the other showing a calm professional using an AI dashboard to summarize a meeting" class="slide-image">
+            <img src="assets/images/ai-for-report-writing-and-minute-taking/2.png" alt="Split screen: One side showing an overwhelmed administrator taking frantic notes, the other showing a calm professional using an AI dashboard to summarize a meeting" class="slide-image">
 
             <h2>Why Introduce AI?</h2>
             <ul>
@@ -58,7 +58,7 @@
             <h1>Traditional vs. AI-Enhanced Workflow</h1>
             <p>Understanding how AI shifts the burden of work from creation to review.</p>
 
-            <img src="" alt="Flowchart comparing the traditional slow documentation process with the rapid AI-assisted review process" class="slide-image">
+            <img src="assets/images/ai-for-report-writing-and-minute-taking/3.png" alt="Flowchart comparing the traditional slow documentation process with the rapid AI-assisted review process" class="slide-image">
 
             <div class="two-column">
                 <div class="highlight">
@@ -87,7 +87,7 @@
                 <small>(Skin the mouse - meaning, get straight to the point and use the right tools for the job.)</small>
             </div>
 
-            <img src="" alt="Infographic displaying conceptual representations of AI transcription and writing tools" class="slide-image">
+            <img src="assets/images/ai-for-report-writing-and-minute-taking/4.png" alt="Infographic displaying conceptual representations of AI transcription and writing tools" class="slide-image">
 
             <ul>
                 <li><strong>Live Transcription:</strong> Otter.ai, Fireflies.ai, Microsoft Teams Premium (Captures speech to text).</li>
@@ -100,7 +100,7 @@
             <h1>The Art of Minute Taking with AI</h1>
             <p>AI is brilliant at capturing what was said, but the human must capture what was meant.</p>
 
-            <img src="" alt="AI interface showing a transcript alongside a summary panel with highlighting for key decisions" class="slide-image">
+            <img src="assets/images/ai-for-report-writing-and-minute-taking/5.png" alt="AI interface showing a transcript alongside a summary panel with highlighting for key decisions" class="slide-image">
 
             <h2>Best Practices for AI Minutes:</h2>
             <ul>
@@ -133,7 +133,7 @@
             <h1>Audio to Text: Navigating Local Languages</h1>
             <p>While AI transcription is powerful, it often struggles with code-switching and local South African names or phrases.</p>
 
-            <img src="" alt="Digital sound wave converting into text, highlighting the challenge of multilingual translation" class="slide-image">
+            <img src="assets/images/ai-for-report-writing-and-minute-taking/6.png" alt="Digital sound wave converting into text, highlighting the challenge of multilingual translation" class="slide-image">
 
             <h2>Handling Errors:</h2>
             <ul>
@@ -147,7 +147,7 @@
             <h1>Structuring Complex Reports</h1>
             <p>Writing a 10-page report from scratch is daunting. AI serves as a powerful outlining assistant.</p>
 
-            <img src="" alt="Mind map transforming into a structured table of contents via an AI processing icon" class="slide-image">
+            <img src="assets/images/ai-for-report-writing-and-minute-taking/7.png" alt="Mind map transforming into a structured table of contents via an AI processing icon" class="slide-image">
 
             <h2>The "Skeleton First" Approach:</h2>
             <ul>
@@ -174,7 +174,7 @@
             <h1>Drafting Executive Summaries</h1>
             <p>The executive summary is the most critical part of any report. AI is exceptionally skilled at distilling large volumes of text.</p>
 
-            <img src="[Image showing a large stack of documents being compressed into a single, concise executive summary page by AI]" alt="Large stack of documents being compressed into a single, concise executive summary page by AI" class="slide-image">
+            <img src="assets/images/ai-for-report-writing-and-minute-taking/8.png" alt="Large stack of documents being compressed into a single, concise executive summary page by AI" class="slide-image">
 
             <h2>Prompting for Summaries:</h2>
             <ul>
@@ -194,7 +194,7 @@
                 <small>(Wisdom is sought from those who went before - We use historical data to explain current trends.)</small>
             </div>
 
-            <img src="" alt="Complex data charts being converted into clear, readable text paragraphs by an AI algorithm" class="slide-image">
+            <img src="assets/images/ai-for-report-writing-and-minute-taking/9.png" alt="Complex data charts being converted into clear, readable text paragraphs by an AI algorithm" class="slide-image">
 
             <ul>
                 <li>Inputting raw data tables into an AI and asking: "Write a professional paragraph explaining the trend in this sales data."</li>
@@ -207,7 +207,7 @@
             <h1>Tone, Style, and Cultural Alignment</h1>
             <p>AI writes with a default "American Corporate" tone. As South African professionals, our writing must reflect our own business etiquette and respect (Ubuntu).</p>
 
-            <img src="[Image showing a sliding scale from Overly Casual to Overly Robotic, with a target in the middle labeled Professional and Empathetic]" alt="Sliding scale from Overly Casual to Overly Robotic, with a target in the middle labeled Professional and Empathetic" class="slide-image">
+            <img src="assets/images/ai-for-report-writing-and-minute-taking/10.png" alt="Sliding scale from Overly Casual to Overly Robotic, with a target in the middle labeled Professional and Empathetic" class="slide-image">
 
             <h2>Adjusting the Output:</h2>
             <ul>
@@ -244,7 +244,7 @@
             <h1>Overcoming Writer's Block</h1>
             <p>The blank page is intimidating. AI acts as a brainstorming partner to get the momentum going.</p>
 
-            <img src="" alt="Person looking thoughtfully at a computer screen while an AI chat window offers various creative starting points" class="slide-image">
+            <img src="assets/images/ai-for-report-writing-and-minute-taking/11.png" alt="Person looking thoughtfully at a computer screen while an AI chat window offers various creative starting points" class="slide-image">
 
             <h2>Techniques to start writing:</h2>
             <ul>
@@ -258,7 +258,7 @@
             <h1>Ethics, Confidentiality, and Hallucinations</h1>
             <p>AI is a tool, not an oracle. It makes mistakes and does not understand confidentiality.</p>
 
-            <img src="" alt="Warning symbol superimposed over an AI generated text document, highlighting the need for human verification" class="slide-image">
+            <img src="assets/images/ai-for-report-writing-and-minute-taking/12.png" alt="Warning symbol superimposed over an AI generated text document, highlighting the need for human verification" class="slide-image">
 
             <div class="two-column">
                 <div class="highlight">
@@ -291,7 +291,7 @@
             <h1>Prompt Engineering for Writers</h1>
             <p>The quality of your report depends entirely on the quality of your prompt.</p>
 
-            <img src="[Image displaying the CREATE framework acronym for prompt engineering on a digital blackboard]" alt="CREATE framework acronym for prompt engineering displayed on a digital blackboard" class="slide-image">
+            <img src="assets/images/ai-for-report-writing-and-minute-taking/13.png" alt="CREATE framework acronym for prompt engineering displayed on a digital blackboard" class="slide-image">
 
             <h2>The CREATE Framework for Prompts:</h2>
             <ul>
@@ -308,7 +308,7 @@
             <h1>90-Day Implementation Plan</h1>
             <p>How to transition your documentation process securely.</p>
 
-            <img src="" alt="Step-by-step roadmap showing the progression from manual writing to full AI integration over 90 days" class="slide-image">
+            <img src="assets/images/ai-for-report-writing-and-minute-taking/14.png" alt="Step-by-step roadmap showing the progression from manual writing to full AI integration over 90 days" class="slide-image">
 
             <ul>
                 <li><strong>Month 1: Shadowing.</strong> Run an AI transcription tool alongside your manual minute-taking. Compare the results. Do not rely on it completely yet.</li>
@@ -362,7 +362,7 @@
                 <small>(The gathering of small things makes a big difference - Small improvements in your workflow lead to major career growth.)</small>
             </div>
 
-            <img src="" alt="Professional holding a beautifully formatted report, looking confident and relieved" class="slide-image">
+            <img src="assets/images/ai-for-report-writing-and-minute-taking/15.png" alt="Professional holding a beautifully formatted report, looking confident and relieved" class="slide-image">
 
             <h2>Final Thoughts:</h2>
             <ul>

@@ -30,7 +30,7 @@
                 <div class="xhosa-proverb">
                     "Molo! Siyakwamkela. Welcome to the future of administration."
                 </div>
-                <img src="" alt="A modern office desk with a glowing AI holographic assistant" class="slide-image">
+                <img src="assets/images/ai-for-secretaries-and-admin/1.png" alt="A modern office desk with a glowing AI holographic assistant" class="slide-image">
                 <div class="highlight">
                     <h3>Practical, Hands-on Workshop</h3>
                     <p>Learn how to use Artificial Intelligence to streamline your workflow, manage communications, and elevate your administrative career.</p>
@@ -48,7 +48,7 @@
             
             <p>Artificial Intelligence (AI) is not here to replace the essential human element of administration. It is a powerful tool designed to handle repetitive tasks, allowing you to focus on strategy, relationship-building, and complex problem-solving.</p>
             
-            <img src="" alt="Conceptual diagram showing AI handling repetitive administrative tasks while a human focuses on strategy" class="slide-image">
+            <img src="assets/images/ai-for-secretaries-and-admin/2.png" alt="Conceptual diagram showing AI handling repetitive administrative tasks while a human focuses on strategy" class="slide-image">
 
             <h2>Key Areas of Impact:</h2>
             <ul>
@@ -63,7 +63,7 @@
             <h1>Traditional Automation vs. Generative AI</h1>
             <p>Understanding the difference between older tools and modern AI is crucial for administrators.</p>
 
-            <img src="" alt="Diagram comparing traditional rule-based automation with modern generative AI" class="slide-image">
+            <img src="assets/images/ai-for-secretaries-and-admin/3.png" alt="Diagram comparing traditional rule-based automation with modern generative AI" class="slide-image">
 
             <div class="two-column">
                 <div class="highlight">
@@ -83,7 +83,7 @@
             <h1>Building Your AI Toolkit</h1>
             <h2>Essential AI Tools for the Modern Secretary</h2>
             
-            <img src="" alt="Digital toolkit representing text generators, meeting assistants, and grammar checkers" class="slide-image">
+            <img src="assets/images/ai-for-secretaries-and-admin/4.png" alt="Digital toolkit representing text generators, meeting assistants, and grammar checkers" class="slide-image">
 
             <ul>
                 <li><strong>Text Generators (ChatGPT, Gemini, Claude):</strong> Excellent for drafting emails, creating agendas, and brainstorming event themes.</li>
@@ -101,7 +101,7 @@
             <h1>Managing Communications & Inbox Triage</h1>
             <p>Administrators spend hours managing busy inboxes. AI can drastically reduce this time.</p>
 
-            <img src="" alt="Workflow diagram showing AI parsing an incoming email, extracting action items, and categorizing it by priority" class="slide-image">
+            <img src="assets/images/ai-for-secretaries-and-admin/5.png" alt="Workflow diagram showing AI parsing an incoming email, extracting action items, and categorizing it by priority" class="slide-image">
 
             <h2>How AI Helps with Emails:</h2>
             <ul>
@@ -133,7 +133,7 @@
             <h1>AI in Meeting Management (Amalungiselelo entlanganiso)</h1>
             <p>Taking minutes is a traditional secretarial duty that is being revolutionized by AI.</p>
 
-            <img src="" alt="Natural language processing pipeline converting meeting speech to text, identifying speakers, and extracting action items" class="slide-image">
+            <img src="assets/images/ai-for-secretaries-and-admin/15.png" alt="Natural language processing pipeline converting meeting speech to text, identifying speakers, and extracting action items" class="slide-image">
 
             <h2>The AI Meeting Workflow:</h2>
             <ul>
@@ -166,7 +166,7 @@
             <h1>Automating Data Entry and OCR</h1>
             <p>Optical Character Recognition (OCR) combined with AI allows administrators to process physical documents rapidly.</p>
 
-            <img src="" alt="Optical character recognition OCR process extracting structured financial data from a scanned receipt" class="slide-image">
+            <img src="assets/images/ai-for-secretaries-and-admin/6.png" alt="Optical character recognition OCR process extracting structured financial data from a scanned receipt" class="slide-image">
 
             <h2>Practical Applications:</h2>
             <ul>
@@ -180,7 +180,7 @@
             <h1>AI for Event & Itinerary Planning</h1>
             <p>Organizing corporate events or executive travel requires meticulous attention to detail.</p>
 
-            <img src="" alt="AI powered travel itinerary and event logistics dashboard" class="slide-image">
+            <img src="assets/images/ai-for-secretaries-and-admin/7.png" alt="AI powered travel itinerary and event logistics dashboard" class="slide-image">
 
             <div class="two-column">
                 <div>
@@ -202,7 +202,7 @@
                 <small>(A person is a person through other people - Emphasizing respect, community, and empathy)</small>
             </div>
 
-            <img src="" alt="Diverse South African business professionals in a meeting illustrating Ubuntu and cultural nuance" class="slide-image">
+            <img src="assets/images/ai-for-secretaries-and-admin/8.png" alt="Diverse South African business professionals in a meeting illustrating Ubuntu and cultural nuance" class="slide-image">
 
             <p>AI models are typically trained on Western corporate data. As an administrator in South Africa, you must ensure the AI output respects local business culture.</p>
             
@@ -217,7 +217,7 @@
             <h1>Ethics and Data Privacy (Ukukhusela ulwazi)</h1>
             <p>Administrators handle highly sensitive company and employee data. Using public AI tools requires strict adherence to privacy rules.</p>
 
-            <img src="" alt="Secure digital lock protecting sensitive corporate and employee data" class="slide-image">
+            <img src="assets/images/ai-for-secretaries-and-admin/9.png" alt="Secure digital lock protecting sensitive corporate and employee data" class="slide-image">
 
             <h2>The Golden Rules of AI Privacy:</h2>
             <ul>
@@ -257,7 +257,7 @@
             <h1>Creating Presentations and Reports</h1>
             <p>Secretaries are often tasked with compiling monthly reports or formatting slide decks for management.</p>
 
-            <img src="" alt="Mind map transforming into a structured table of contents via an AI processing icon" class="slide-image">
+            <img src="assets/images/ai-for-secretaries-and-admin/10.png" alt="Mind map transforming into a structured table of contents via an AI processing icon" class="slide-image">
 
             <h2>How AI Accelerates Document Creation:</h2>
             <ul>
@@ -289,7 +289,7 @@
                 <p style="font-size: var(--font-size-lg); font-weight: bold;">AI will not replace administrators. Administrators who use AI will replace those who do not.</p>
             </div>
 
-            <img src="" alt="Confident modern administrator utilizing advanced AI interfaces on a digital display" class="slide-image">
+            <img src="assets/images/ai-for-secretaries-and-admin/11.png" alt="Confident modern administrator utilizing advanced AI interfaces on a digital display" class="slide-image">
 
             <h2>Skills to Develop:</h2>
             <ul>
@@ -303,7 +303,7 @@
             <h1>Your 90-Day AI Implementation Plan</h1>
             <p>Start small and gradually build your AI capabilities in the office.</p>
 
-            <img src="" alt="90-day implementation roadmap timeline for integrating AI into office workflows" class="slide-image">
+            <img src="assets/images/ai-for-secretaries-and-admin/12.png" alt="90-day implementation roadmap timeline for integrating AI into office workflows" class="slide-image">
 
             <ul>
                 <li><strong>Days 1-30: Exploration.</strong> Open an account with an AI text generator. Use it for low-risk tasks like drafting generic emails or brainstorming office event ideas.</li>
@@ -315,7 +315,7 @@
         <div class="slide">
             <h1>Summary of Best Practices</h1>
             
-            <img src="" alt="Digital checklist highlighting best practices for AI usage in administration" class="slide-image">
+            <img src="assets/images/ai-for-secretaries-and-admin/13.png" alt="Digital checklist highlighting best practices for AI usage in administration" class="slide-image">
 
             <div class="two-column">
                 <div class="highlight">
@@ -384,7 +384,7 @@
                 <small>(Thank you very much! May this knowledge illuminate your work.)</small>
             </div>
 
-            <img src="" alt="Futuristic yet warm office environment symbolizing the harmonious integration of human administrators and AI" class="slide-image">
+            <img src="assets/images/ai-for-secretaries-and-admin/14.png" alt="Futuristic yet warm office environment symbolizing the harmonious integration of human administrators and AI" class="slide-image">
 
             <h2>Next Steps:</h2>
             <ul>
