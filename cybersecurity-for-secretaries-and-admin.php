@@ -32,7 +32,7 @@
                     <br>
                     <small>(Protection begins with you.)</small>
                 </div>
-                <img src="" alt="Secure and modern office environment with digital lock symbols" class="slide-image">
+                <img src="assets/images/cybersecurity-for-secretaries-and-admin/1.png" alt="Secure and modern office environment with digital lock symbols" class="slide-image">
                 <div class="highlight">
                     <h3>Practical Training Workshop</h3>
                     <p>Equipping administrative professionals with the knowledge to identify, prevent, and respond to modern digital threats in the workplace.</p>
@@ -44,7 +44,7 @@
             <h1>The Administrator as the Digital Gatekeeper</h1>
             <p>Secretaries and administrators are the nerve center of any organization. Because you handle schedules, communications, and sensitive documents, you are often the primary target for cybercriminals.</p>
             
-            <img src="" alt="Administrative professional confidently working at a computer with a glowing security shield graphic in the background" class="slide-image">
+            <img src="assets/images/cybersecurity-for-secretaries-and-admin/2.png" alt="Administrative professional confidently working at a computer with a glowing security shield graphic in the background" class="slide-image">
 
             <h2>Your Critical Role:</h2>
             <ul>
@@ -58,7 +58,7 @@
             <h1>The Threat Landscape: What Are We Protecting Against?</h1>
             <p>Understanding the enemy is the first step in digital defense.</p>
 
-            <img src="" alt="Conceptual diagram detailing three cybersecurity pillars: Malware, Phishing, and Ransomware" class="slide-image">
+            <img src="assets/images/cybersecurity-for-secretaries-and-admin/3.png" alt="Conceptual diagram detailing three cybersecurity pillars: Malware, Phishing, and Ransomware" class="slide-image">
 
             <div class="two-column">
                 <div class="highlight">
@@ -83,7 +83,7 @@
                 <small>(Beware of falling into a trap - criminals use our natural helpfulness against us.)</small>
             </div>
 
-            <img src="" alt="Illustration of social engineering concepts like a hacker manipulating a user over the phone or via email" class="slide-image">
+            <img src="assets/images/cybersecurity-for-secretaries-and-admin/4.png" alt="Illustration of social engineering concepts like a hacker manipulating a user over the phone or via email" class="slide-image">
 
             <p>Social engineering manipulates people into giving up confidential information. Cybercriminals exploit principles like authority, urgency, and our natural instinct to be helpful (Ubuntu).</p>
 
@@ -99,7 +99,7 @@
             <h1>Recognizing Phishing Emails: Red Flags</h1>
             <p>Always pause and verify before clicking links or downloading attachments.</p>
 
-            <img src="" alt="Annotated sample email highlighting specific phishing indicators like misspelled domains and urgent language" class="slide-image">
+            <img src="assets/images/cybersecurity-for-secretaries-and-admin/5.png" alt="Annotated sample email highlighting specific phishing indicators like misspelled domains and urgent language" class="slide-image">
 
             <h2>What to Look For:</h2>
             <ul>
@@ -145,7 +145,7 @@
             <h1>Password Security and Management</h1>
             <p>Your password is the front door to the organization's data.</p>
 
-            <img src="" alt="Strong password conceptual graphic showing a mix of symbols, letters, and numbers" class="slide-image">
+            <img src="assets/images/cybersecurity-for-secretaries-and-admin/6.png" alt="Strong password conceptual graphic showing a mix of symbols, letters, and numbers" class="slide-image">
 
             <h2>Password Best Practices:</h2>
             <ul>
@@ -173,7 +173,7 @@
             <h1>Multi-Factor Authentication (MFA)</h1>
             <p>Passwords alone are no longer sufficient. MFA adds an essential layer of security.</p>
 
-            <img src="" alt="Diagram showing the three factors of multi-factor authentication: Something you know, something you have, and something you are" class="slide-image">
+            <img src="assets/images/cybersecurity-for-secretaries-and-admin/7.png" alt="Diagram showing the three factors of multi-factor authentication: Something you know, something you have, and something you are" class="slide-image">
 
             <div class="two-column">
                 <div>
@@ -196,7 +196,7 @@
             <h1>Physical Security in the Office</h1>
             <p>Cybersecurity extends beyond the digital realm. Protecting physical devices and documents is equally important.</p>
 
-            <img src="" alt="Split screen comparing a cluttered, insecure desk with sticky notes to a clean, secure desk environment" class="slide-image">
+            <img src="assets/images/cybersecurity-for-secretaries-and-admin/8.png" alt="Split screen comparing a cluttered, insecure desk with sticky notes to a clean, secure desk environment" class="slide-image">
 
             <h2>The Clean Desk Policy:</h2>
             <ul>
@@ -215,7 +215,7 @@
                 <small>(What is written remains - Ensure confidential writing is disposed of properly.)</small>
             </div>
 
-            <img src="" alt="Paper document going through a cross-cut shredder and a secure printing station with a PIN pad" class="slide-image">
+            <img src="assets/images/cybersecurity-for-secretaries-and-admin/9.png" alt="Paper document going through a cross-cut shredder and a secure printing station with a PIN pad" class="slide-image">
 
             <p>Administrators handle contracts, HR records, and financial statements that must be protected lifecycle-wide.</p>
             
@@ -230,7 +230,7 @@
             <h1>Data Privacy & POPIA Compliance</h1>
             <p>In South Africa, the Protection of Personal Information Act (POPIA) mandates how organizations must handle personal data.</p>
 
-            <img src="" alt="Compliance checklist document outlining data privacy and protection standards" class="slide-image">
+            <img src="assets/images/cybersecurity-for-secretaries-and-admin/10.png" alt="Compliance checklist document outlining data privacy and protection standards" class="slide-image">
 
             <h2>Administrator Responsibilities under POPIA:</h2>
             <ul>
@@ -244,7 +244,7 @@
             <h1>Safe Browsing & Public Wi-Fi</h1>
             <p>When working remotely or traveling for business, connectivity can pose severe risks.</p>
 
-            <img src="" alt="Conceptual diagram showing a Virtual Private Network (VPN) creating a secure encrypted tunnel over a public Wi-Fi network" class="slide-image">
+            <img src="assets/images/cybersecurity-for-secretaries-and-admin/11.png" alt="Conceptual diagram showing a Virtual Private Network (VPN) creating a secure encrypted tunnel over a public Wi-Fi network" class="slide-image">
 
             <h2>The Dangers of Public Wi-Fi:</h2>
             <ul>
@@ -280,7 +280,7 @@
             <h1>The Risks of Removable Media (USB Drives)</h1>
             <p>USB flash drives are convenient but represent a massive security vulnerability for organizations.</p>
 
-            <img src="" alt="USB flash drive with a glowing warning symbol indicating potential hidden malware" class="slide-image">
+            <img src="assets/images/cybersecurity-for-secretaries-and-admin/12.png" alt="USB flash drive with a glowing warning symbol indicating potential hidden malware" class="slide-image">
 
             <h2>USB Security Protocols:</h2>
             <ul>
@@ -294,7 +294,7 @@
             <h1>Incident Reporting: When Mistakes Happen</h1>
             <p>Even with the best training, human error occurs. How you respond is what matters.</p>
 
-            <img src="" alt="Office worker urgently but calmly calling the IT helpdesk to report a suspected cybersecurity incident" class="slide-image">
+            <img src="assets/images/cybersecurity-for-secretaries-and-admin/13.png" alt="Office worker urgently but calmly calling the IT helpdesk to report a suspected cybersecurity incident" class="slide-image">
 
             <div class="highlight" style="border-left-color: var(--accent-red);">
                 <h3>Speed is Critical</h3>
@@ -319,7 +319,7 @@
                 <small>(Danger is present - Be mindful of the digital footprints you leave.)</small>
             </div>
 
-            <img src="" alt="Social media profile interface highlighting the risks of oversharing personal and corporate information online" class="slide-image">
+            <img src="assets/images/cybersecurity-for-secretaries-and-admin/14.png" alt="Social media profile interface highlighting the risks of oversharing personal and corporate information online" class="slide-image">
 
             <h2>Oversharing Risks:</h2>
             <ul>
@@ -333,7 +333,7 @@
             <h1>90-Day Cybersecurity Action Plan</h1>
             <p>Practical steps to secure your administrative workflow.</p>
 
-            <img src="" alt="90-day cybersecurity implementation roadmap timeline showing steps to secure administrative workflows" class="slide-image">
+            <img src="assets/images/cybersecurity-for-secretaries-and-admin/15.png" alt="90-day cybersecurity implementation roadmap timeline showing steps to secure administrative workflows" class="slide-image">
 
             <ul>
                 <li><strong>Days 1-30: Audit & Secure.</strong> Change any reused passwords. Enroll in a password manager. Ensure MFA is activated on all your work accounts.</li>
@@ -387,7 +387,7 @@
                 <small>(Protect yourself from enemies. Thank you for participating.)</small>
             </div>
 
-            <img src="" alt="Secure and confident administrative professional standing in a modern office, representing digital vigilance" class="slide-image">
+            <img src="assets/images/cybersecurity-for-secretaries-and-admin/16.png" alt="Secure and confident administrative professional standing in a modern office, representing digital vigilance" class="slide-image">
 
             <h2>Final Thoughts:</h2>
             <ul>

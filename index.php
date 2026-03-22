@@ -30,8 +30,6 @@
         <div class="progress-container">
             <div class="progress-bar"></div>
         </div>
-        
-        <div class="countdown"></div>
     </div>
 
     <div class="particles" id="particles"></div>
