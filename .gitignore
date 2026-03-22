@@ -1,6 +1,0 @@
-assets/images/
-*.png
-*.jpg
-*.jpeg
-node_modules/
-.DS_Store
