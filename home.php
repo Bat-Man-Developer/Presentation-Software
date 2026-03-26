@@ -35,7 +35,7 @@
 
         <div class="presentation-card report-card" onclick="navigateToPresentation('ai-for-report-writing-and-minute-taking.php')">
             <div class="card-icon report-icon">AT</div>
-            <h2 class="card-title">Day 2: AI in Report Writing & Minute Taking</h2>
+            <h2 class="card-title">Day 2: Advanced AI Tools & Workflows</h2>
             <p class="card-description">
                 Master specialized AI for professional administration across all industries using document automation, multilingual processing, and intelligent workflow integration.
             </p>
@@ -51,7 +51,7 @@
 
         <div class="presentation-card seccyber-card" onclick="navigateToPresentation('cybersecurity-for-secretaries-and-admin.php')">
             <div class="card-icon seccyber-icon">SC</div>
-            <h2 class="card-title">Day 3: Cybersecurity for Secretaries</h2>
+            <h2 class="card-title">Day 3: Cybersecurity for Secretaries & Admin</h2>
             <p class="card-description">
                 Become the ultimate digital gatekeeper. Learn to identify phishing, manage passwords, and protect sensitive organizational data.
             </p>
