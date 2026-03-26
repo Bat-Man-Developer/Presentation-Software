@@ -34,19 +34,19 @@
         </div>
 
         <div class="presentation-card report-card" onclick="navigateToPresentation('ai-for-report-writing-and-minute-taking.php')">
-            <div class="card-icon report-icon">RW</div>
+            <div class="card-icon report-icon">AT</div>
             <h2 class="card-title">Day 2: AI in Report Writing & Minute Taking</h2>
             <p class="card-description">
-                Transform tedious documentation into rapid, structured processes using advanced AI transcription and summarization tools.
+                Master specialized AI for professional administration across all industries using document automation, multilingual processing, and intelligent workflow integration.
             </p>
             <ul class="card-features">
-                <li>Live AI audio transcription</li>
-                <li>Action item extraction</li>
-                <li>Executive summary generation</li>
-                <li>Tone & style adjustments</li>
-                <li>Defeating AI hallucinations</li>
+                <li>Advanced document automation systems</li>
+                <li>Data visualization & analytics AI</li>
+                <li>Multilingual AI processing excellence</li>
+                <li>Workflow automation & integration</li>
+                <li>Professional AI ethics & leadership</li>
             </ul>
-            <button class="start-button">Start Report Writing</button>
+            <button class="start-button">Start Advanced AI</button>
         </div>
 
         <div class="presentation-card seccyber-card" onclick="navigateToPresentation('cybersecurity-for-secretaries-and-admin.php')">
