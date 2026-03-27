@@ -58,115 +58,128 @@ document.addEventListener('keydown', function(event) {
 });
 
 // ===============================================
-// LAB SIMULATIONS
+// INTERACTIVE SIMULATIONS
 // ===============================================
 
-function checkPhishing() {
-    const resultDiv = document.getElementById('phishing-result');
-    const isPhish = document.getElementById('phish_scam').checked;
+function checkEmailSecurity() {
+    const resultDiv = document.getElementById('email-result');
+    const isThreat = document.getElementById('email_threat').checked;
     
-    if (!document.querySelector('input[name="phishPrompt"]:checked')) {
-        resultDiv.innerHTML = '<p style="color: var(--primary-color);">Please select an option.</p>';
+    if (!document.querySelector('input[name="emailPrompt"]:checked')) {
+        resultDiv.innerHTML = '<p style="color: var(--primary-color);">Please select an assessment option.</p>';
         resultDiv.style.display = 'block';
         return;
     }
 
-    if (isPhish) {
+    if (isThreat) {
         resultDiv.innerHTML = `
-            <h4 style="color: var(--accent-green);">[Correct] It is a phishing attempt.</h4>
-            <p>Good catch! Red flags include:</p>
+            <h4 style="color: var(--accent-green);">[Correct Assessment] This is a phishing attempt.</h4>
+            <p><strong>Security indicators identified:</strong></p>
             <ul>
-                <li>Suspicious sender domain (company-admin-portal.com is fake).</li>
-                <li>Urgent, threatening language (access terminated at 5:00 PM).</li>
-                <li>Generic greeting (Dear Staff Member).</li>
-                <li>Suspicious URL (secure-login-update.net).</li>
+                <li>Suspicious sender domain (company-systems-update.com is not legitimate).</li>
+                <li>Urgent threatening language with artificial time pressure (2 hours).</li>
+                <li>Generic greeting (Dear Team Member instead of your name).</li>
+                <li>Suspicious verification URL (security-verification-portal.net).</li>
+                <li>Threats of account suspension to create panic.</li>
             </ul>
         `;
     } else {
         resultDiv.innerHTML = `
-            <h4 style="color: var(--accent-red);">[Incorrect] This is a dangerous phishing email.</h4>
-            <p>Notice the fake sender domain, the urgent threat of account termination, and the generic greeting. IT departments do not threaten immediate termination via generic emails.</p>
+            <h4 style="color: var(--accent-red);">[Incorrect Assessment] This is a dangerous phishing communication.</h4>
+            <p>Legitimate IT departments do not request credential verification through external links with time-based threats. Always verify such requests through established internal communication channels.</p>
         `;
     }
     
     resultDiv.style.display = 'block';
 }
 
-function testPassword() {
+function evaluatePassword() {
     const password = document.getElementById('password-input').value;
     const resultDiv = document.getElementById('password-result');
 
     if (!password) {
-        resultDiv.innerHTML = '<p style="color: var(--primary-color);">Please enter a sample password.</p>';
+        resultDiv.innerHTML = '<p style="color: var(--primary-color);">Please enter a sample password for analysis.</p>';
         resultDiv.style.display = 'block';
         return;
     }
 
-    let score = 0;
-    let feedback = [];
+    let securityScore = 0;
+    let recommendations = [];
 
-    if (password.length >= 12) {
-        score += 2;
+    // Length evaluation
+    if (password.length >= 14) {
+        securityScore += 3;
+    } else if (password.length >= 10) {
+        securityScore += 2;
+        recommendations.push("Consider using longer passphrases (14+ characters) for enhanced security.");
     } else if (password.length >= 8) {
-        score += 1;
-        feedback.push("Make it longer (12+ characters or use a passphrase).");
+        securityScore += 1;
+        recommendations.push("Increase length significantly. Use passphrases or longer combinations.");
     } else {
-        feedback.push("Way too short. Use at least 12 characters.");
+        recommendations.push("Critical: Password too short. Minimum 12 characters recommended.");
     }
 
-    if (/[A-Z]/.test(password)) score += 1;
-    else feedback.push("Add uppercase letters.");
+    // Character variety evaluation
+    if (/[A-Z]/.test(password)) securityScore += 1;
+    else recommendations.push("Include uppercase letters.");
 
-    if (/[a-z]/.test(password)) score += 1;
-    else feedback.push("Add lowercase letters.");
+    if (/[a-z]/.test(password)) securityScore += 1;
+    else recommendations.push("Include lowercase letters.");
 
-    if (/[0-9]/.test(password)) score += 1;
-    else feedback.push("Add numbers.");
+    if (/[0-9]/.test(password)) securityScore += 1;
+    else recommendations.push("Include numeric characters.");
 
-    if (/[^A-Za-z0-9]/.test(password)) score += 1;
-    else feedback.push("Add special characters.");
+    if (/[^A-Za-z0-9]/.test(password)) securityScore += 1;
+    else recommendations.push("Include special characters or symbols.");
 
-    let outputHtml = '<h4>Analysis Results:</h4>';
-
-    if (score >= 5) {
-        outputHtml += '<p style="color: var(--accent-green); font-weight: bold;">[Strong] This password would take a very long time to crack.</p>';
-    } else if (score >= 3) {
-        outputHtml += '<p style="color: var(--accent-gold); font-weight: bold;">[Moderate] This password is okay, but could be stronger.</p>';
-    } else {
-        outputHtml += '<p style="color: var(--accent-red); font-weight: bold;">[Weak] This password could be cracked instantly.</p>';
+    // Dictionary word check (basic)
+    const commonWords = ['password', 'admin', 'user', 'login', 'welcome', 'company'];
+    if (commonWords.some(word => password.toLowerCase().includes(word))) {
+        securityScore -= 2;
+        recommendations.push("Avoid common dictionary words in passwords.");
     }
 
-    if (feedback.length > 0) {
-        outputHtml += '<ul>';
-        feedback.forEach(item => {
-            outputHtml += `<li>${item}</li>`;
+    let assessmentHtml = '<h4>Security Assessment Results:</h4>';
+
+    if (securityScore >= 6) {
+        assessmentHtml += '<p style="color: var(--accent-green); font-weight: bold;">[Strong Security] This password provides excellent protection against automated attacks.</p>';
+    } else if (securityScore >= 4) {
+        assessmentHtml += '<p style="color: var(--accent-gold); font-weight: bold;">[Moderate Security] This password is acceptable but could be strengthened.</p>';
+    } else {
+        assessmentHtml += '<p style="color: var(--accent-red); font-weight: bold;">[Weak Security] This password is vulnerable to rapid compromise.</p>';
+    }
+
+    if (recommendations.length > 0) {
+        assessmentHtml += '<p><strong>Security Enhancement Recommendations:</strong></p><ul>';
+        recommendations.forEach(recommendation => {
+            assessmentHtml += `<li>${recommendation}</li>`;
         });
-        outputHtml += '</ul>';
+        assessmentHtml += '</ul>';
     }
 
-    resultDiv.innerHTML = outputHtml;
+    resultDiv.innerHTML = assessmentHtml;
     resultDiv.style.display = 'block';
 }
 
-function checkNetwork() {
-    const resultDiv = document.getElementById('network-result');
-    const useVpn = document.getElementById('net_vpn').checked;
+function evaluateConnectivity() {
+    const resultDiv = document.getElementById('connectivity-result');
+    const secureChoice = document.getElementById('conn_secure').checked;
     
-    if (!document.querySelector('input[name="netPrompt"]:checked')) {
-        resultDiv.innerHTML = '<p style="color: var(--primary-color);">Please select an option.</p>';
+    if (!document.querySelector('input[name="connPrompt"]:checked')) {
+        resultDiv.innerHTML = '<p style="color: var(--primary-color);">Please select a connectivity option.</p>';
         resultDiv.style.display = 'block';
         return;
     }
 
-    if (useVpn) {
+    if (secureChoice) {
         resultDiv.innerHTML = `
-            <h4 style="color: var(--accent-green);">[Correct] Safe Choice.</h4>
-            <p>Using a company-approved VPN encrypts your traffic, creating a secure tunnel even over an unsecured public Wi-Fi network.</p>
+            <h4 style="color: var(--accent-green);">[Optimal Security Choice]</h4>
+            <p><strong>Excellent decision.</strong> Using an organization-approved VPN creates an encrypted tunnel that protects your communications even over untrusted public networks. This approach maintains confidentiality and integrity of sensitive business data.</p>
         `;
     } else {
         resultDiv.innerHTML = `
-            <h4 style="color: var(--accent-red);">[Incorrect] Unsafe Choice.</h4>
-            <p>Connecting to public Wi-Fi without a VPN exposes your data to interception. Never send sensitive corporate information over an open, unencrypted network.</p>
+            <h4 style="color: var(--accent-red);">[Security Risk Identified]</h4>
+            <p><strong>Suboptimal choice.</strong> Connecting to public networks without VPN protection exposes confidential business communications to potential interception. Always use organization-approved VPN solutions when accessing sensitive information outside the secure office environment.</p>
         `;
     }
     
@@ -174,7 +187,7 @@ function checkNetwork() {
 }
 
 // ===============================================
-// QUIZ LOGIC
+// ASSESSMENT QUIZ LOGIC
 // ===============================================
 
 let selectedAnswers = {};
@@ -198,23 +211,23 @@ function setupQuizListeners() {
 }
 
 function submitAssessment() {
-    const totalQuestions = 3;
+    const totalQuestions = 4;
     
     if (Object.keys(selectedAnswers).length < totalQuestions) {
-        alert('Please answer all questions before submitting.');
+        alert('Please complete all assessment questions before submitting.');
         return;
     }
 
-    let correctCount = 0;
+    let correctAnswers = 0;
 
-    // Grade answers
+    // Evaluate and display results
     Object.keys(selectedAnswers).forEach(questionId => {
         const userAnswer = selectedAnswers[questionId];
         const questionElement = document.getElementById(questionId);
         const options = questionElement.querySelectorAll('.quiz-options li');
         
         if (userAnswer === 'correct') {
-            correctCount++;
+            correctAnswers++;
             options.forEach(option => {
                 if (option.dataset.answer === 'correct') {
                     option.classList.add('correct');
@@ -232,32 +245,36 @@ function submitAssessment() {
         }
     });
 
-    // Display result
+    // Generate assessment results
     const resultDiv = document.getElementById('quiz-final-result');
-    const percentage = Math.round((correctCount / totalQuestions) * 100);
+    const percentage = Math.round((correctAnswers / totalQuestions) * 100);
     
     let resultClass = 'needs-improvement';
-    let message = `You scored ${correctCount} out of ${totalQuestions} (${percentage}%). `;
+    let assessmentMessage = `Assessment Complete: ${correctAnswers} of ${totalQuestions} correct (${percentage}%). `;
 
     if (percentage === 100) {
         resultClass = 'excellent';
-        message += '[Excellent] You have a strong grasp of cybersecurity fundamentals.';
+        assessmentMessage += 'Excellent! You demonstrate strong cybersecurity awareness and professional security practices.';
+    } else if (percentage >= 75) {
+        resultClass = 'good';
+        assessmentMessage += 'Good performance! Review the highlighted correct responses to strengthen your security knowledge.';
     } else {
-        message += 'Please review the highlighted correct answers above.';
+        assessmentMessage += 'Additional study recommended. Please review the correct answers and consider revisiting key security concepts.';
     }
 
     resultDiv.className = `quiz-result ${resultClass}`;
-    resultDiv.innerHTML = `<p>${message}</p>`;
+    resultDiv.innerHTML = `<p>${assessmentMessage}</p>`;
     resultDiv.style.display = 'block';
 
-    // Disable further clicking
+    // Disable further interaction
     document.querySelectorAll('.quiz-options li').forEach(option => {
         option.style.pointerEvents = 'none';
     });
     
     document.querySelector('.submit-btn').disabled = true;
     document.querySelector('.submit-btn').textContent = 'Assessment Completed';
+    document.querySelector('.submit-btn').style.background = 'var(--border-medium)';
 }
 
-// Start presentation on load
+// Initialize presentation when page loads
 window.onload = initPresentation;
