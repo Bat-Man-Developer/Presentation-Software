@@ -1,5 +1,5 @@
 <?php
-    $companyName = "Royal Institute of Technology & Engineering - Tinotel";
+    $companyName = "Special Holiday Activities";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,12 +17,12 @@
         
         <div class="cube-container">
             <div class="cube">
-                <div class="face front">AI</div>
-                <div class="face back">Analytics</div>
-                <div class="face left">Security</div>
-                <div class="face right">Intelligence</div>
-                <div class="face top">Innovation</div>
-                <div class="face bottom">Excellence</div>
+                <div class="face front">Fun</div>
+                <div class="face back">Love</div>
+                <div class="face left">Joy</div>
+                <div class="face right">Explore</div>
+                <div class="face top">Peace</div>
+                <div class="face bottom">Nature</div>
             </div>
         </div>
         

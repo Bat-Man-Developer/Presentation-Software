@@ -1,5 +1,4 @@
 // Home JS
-
 // Navigation function
 function navigateToPresentation(url) {
     // Safely get the event object to prevent console errors
@@ -21,11 +20,11 @@ function createParticles() {
     const particlesContainer = document.getElementById('particles');
     if (!particlesContainer) return; // Safety check
     
-    const colors = ['#00d4ff', '#ff006e', '#8338ec', '#3a86ff', '#ffc107', '#00e676'];
+    const colors = ['#C83E2B', '#D9822B', '#E6A100', '#8C2D56', '#00d4ff', '#ff006e', '#8338ec', '#3a86ff', '#ffc107', '#00e676'];
     
     // Adjust particle count based on screen size
     const isMobile = window.innerWidth <= 768;
-    const particleCount = isMobile ? 20 : 40;
+    const particleCount = isMobile ? 22 : 44;
     
     for (let i = 0; i < particleCount; i++) {
         const particle = document.createElement('div');
@@ -48,12 +47,13 @@ function handleOrientationChange() {
     }
 }
 
-// Add keyboard navigation (Mapped to all 10 presentations)
+// Add keyboard navigation (Mapped to presentations including Holiday Playbook)
 document.addEventListener('keydown', (e) => {
     // Prevent navigation if the user is typing in an input field (just in case you add search later)
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
 
-    switch(e.key) {
+    switch (e.key.toLowerCase()) {
+        case 'h': navigateToPresentation('holiday-activities.php'); break;
         case '1': navigateToPresentation('hardware-analyst.php'); break;
         case '2': navigateToPresentation('software-analyst.php'); break;
         case '3': navigateToPresentation('network-analyst.php'); break;

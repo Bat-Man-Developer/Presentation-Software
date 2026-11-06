@@ -1,5 +1,5 @@
 <?php
-    $companyName = "Royal Institute of Technology & Engineering - Tinotel";
+    $companyName = "Special Holiday Activities";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,7 +16,33 @@
     </div>
 
     <div class="presentations-container">
+        <div class="presentation-card holiday-card" onclick="navigateToPresentation('holiday-activities.php')">
+            <div class="holiday-ribbon">✨ Special Couple Edition</div>
+            <div class="holiday-ambient-glow"></div>
+            <div class="card-icon holiday-icon">
+                <span class="holiday-icon-symbol">☀</span>
+                <span class="holiday-icon-code">HA</span>
+            </div>
+            <div class="holiday-meta-pills">
+                <span class="holiday-pill">🌅 Unexplored Escapes</span>
+                <span class="holiday-pill">🔥 Summer Fun</span>
+                <span class="holiday-pill">💎 Smart Budget Cap</span>
+            </div>
+            <h2 class="card-title">Sparks Over Here: Holiday Activities</h2>
+            <p class="card-description">
+                An interactive romantic, adventure featuring unexplored curated experiences, flame-grilled dinner showdowns, and a live smart budget planner.
+            </p>
+            <ul class="card-features">
+                <li>Mr. George, Turn 'n Tender &amp; Tiger's Milk date</li>
+                <li>Unexplored curated summer adventures</li>
+                <li>Out-of-the-box romance &amp; pitfalls</li>
+                <li>Interactive vibe funnel &amp; compatibility quiz</li>
+                <li>Live smart budget tracker</li>
+            </ul>
+            <button class="start-button">Explore The Holiday Activities ➔</button>
+        </div>
 
+        <!--
         <div class="presentation-card secadmin-card" onclick="navigateToPresentation('ai-for-secretaries-and-admin.php')">
             <div class="card-icon secadmin-icon">SA</div>
             <h2 class="card-title">Day 1: AI for Secretaries & Admin</h2>
@@ -64,8 +90,7 @@
             </ul>
             <button class="start-button">Start Sec Cyber</button>
         </div>
-
-        <!--
+        
         <div class="presentation-card hardware-card" onclick="navigateToPresentation('hardware-analyst.php')">
             <div class="card-icon hardware-icon">HW</div>
             <h2 class="card-title">Hardware Cybersecurity Analyst</h2>
@@ -229,7 +254,7 @@
     </div>
 
     <div class="footer">
-        <a href="https://fcsholdix.co.za" style="color: #ff9d00ff;">Powered by Fhatani Communications & Services CC.<br> All Rights Reserved.</a>
+        <a href="https://fcsholdix.co.za" style="color: #ff9d00ff;">Powered by Fhatani Communications &amp; Services CC.<br> All Rights Reserved.</a>
     </div>
 
     <div class="particles" id="particles"></div>
