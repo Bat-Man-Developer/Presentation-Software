@@ -31,13 +31,6 @@
                 </div>
                 <div class="image-placeholder-card">
                     <img src="assets/images/holiday-activities/1.png" alt="Romantic South African couple overlooking golden Johannesburg sunset with warm geometric accents" class="slide-image">
-                    <div class="prompt-box">
-                        <div class="prompt-box-text">
-                            <strong>Cover:</strong>
-                            <span class="prompt-content">Cinematic wide shot of a stylish Black South African couple laughing together at golden hour overlooking the Johannesburg skyline from a rocky ridge, warm terracotta and ochre sunset glow, subtle Southern African geometric beadwork light patterns in the border, romantic and vibrant atmosphere, photorealistic, 8k.</span>
-                        </div>
-                        <button class="copy-prompt-btn" onclick="copyImagePrompt(this)">Copy Prompt</button>
-                    </div>
                 </div>
                 <div class="highlight">
                     <h3>Our Holiday Golden Rule</h3>
@@ -52,13 +45,6 @@
             <p>A normal slide deck talks <em>at</em> you; a romantic funnel lets the queen of the room steer the energy, rate every adventure, and lock in our final itinerary.</p>
             <div class="image-placeholder-card">
                 <img src="assets/images/holiday-activities/2.png" alt="Illustrated romantic treasure map of Gauteng from Pretoria and Harties to Melrose Arch and Soweto" class="slide-image">
-                <div class="prompt-box">
-                    <div class="prompt-box-text">
-                        <strong>Map:</strong>
-                        <span class="prompt-content">Artistic luxury travel map of Gauteng South Africa glowing with warm amber and crimson pins at Melrose Arch, Hartbeespoort Dam, Cullinan, Cradle of Humankind, and Soweto Towers, surrounded by compasses, wine glasses, and warm African textile textures, high detail illustration.</span>
-                    </div>
-                    <button class="copy-prompt-btn" onclick="copyImagePrompt(this)">Copy Prompt</button>
-                </div>
             </div>
             <div class="two-column">
                 <div class="highlight">
@@ -80,13 +66,6 @@
             <p>Before we dive into the 10 activities, set the primary frequency for our holiday. When you lead the vibe, the whole province follows.</p>
             <div class="image-placeholder-card">
                 <img src="assets/images/holiday-activities/3.png" alt="Three glowing romantic emblems representing Fire Adventure, Golden Sunset Soul, and Playful Rivalry" class="slide-image">
-                <div class="prompt-box">
-                    <div class="prompt-box-text">
-                        <strong>Vibe Emblems:</strong>
-                        <span class="prompt-content">Triptych of three glowing luxury romantic icons on warm cream parchment: a fiery golden flame with quad trails, a tranquil sunset boat over dam waters, and two clinking cocktail glasses with paintbrushes, warm terracotta and gold palette, editorial illustration.</span>
-                    </div>
-                    <button class="copy-prompt-btn" onclick="copyImagePrompt(this)">Copy Prompt</button>
-                </div>
             </div>
             <div class="interactive-lab">
                 <div class="lab-title">Interactive Chemistry Tuner</div>
@@ -115,13 +94,6 @@
             <p><strong>The Narrative:</strong> Every iconic holiday needs a flagship night where we dress sharp, claim a corner table where the charcoal ovens glow, and let the conversation run past midnight. Whether we choose the fairy-lit piazza energy of <strong>Mr. George in Melrose Arch</strong>, the legendary steakhouse mastery of <strong>Turn 'n Tender</strong>, or the wood-fired rooftop buzz of <strong>Tiger's Milk</strong>, tonight is about fire-kissed flavour and undivided attention.</p>
             <div class="image-placeholder-card">
                 <img src="assets/images/holiday-activities/4.png" alt="Romantic couple dining at an upscale open-air Johannesburg restaurant like Mr George Melrose Arch with charcoal grilled steak and cocktails" class="slide-image">
-                <div class="prompt-box">
-                    <div class="prompt-box-text">
-                        <strong>Dinner Date:</strong>
-                        <span class="prompt-content">Romantic evening dinner date at an upscale open-air piazza restaurant in Melrose Arch Johannesburg inspired by Mr George and Turn n Tender, sizzling charcoal-grilled beef fillet cubes, rockshrimp tempura, two craft cocktails, warm fairy lights in trees, happy couple clinking glasses, cinematic food and lifestyle photography.</span>
-                    </div>
-                    <button class="copy-prompt-btn" onclick="copyImagePrompt(this)">Copy Prompt</button>
-                </div>
             </div>
             <div class="three-column">
                 <div class="highlight">
@@ -145,13 +117,6 @@
             <p>How to turn a great dinner at Mr. George, Turn 'n Tender, or Tiger's Milk into a legendary core memory.</p>
             <div class="image-placeholder-card">
                 <img src="assets/images/holiday-activities/5.png" alt="Close up of sizzling steak, churros with salted caramel, and two craft cocktails under warm lights" class="slide-image">
-                <div class="prompt-box">
-                    <div class="prompt-box-text">
-                        <strong>Dinner Spread:</strong>
-                        <span class="prompt-content">Overhead luxury food photography of a shared romantic feast: charcoal-seared beef fillet medallions with lemon and herbs, crispy tempura prawns, chargrilled halloumi, and churros with salted caramel sauce on a warm wood table by candlelight.</span>
-                    </div>
-                    <button class="copy-prompt-btn" onclick="copyImagePrompt(this)">Copy Prompt</button>
-                </div>
             </div>
             <div class="two-column">
                 <div class="know-box">
@@ -190,13 +155,6 @@
             <p><strong>The Narrative:</strong> Some women want to be chauffeured; a natural-born leader wants her own throttle and an open bushveld track. Just outside historic Cullinan, we trade city tar for winding red-earth trails, rocky river crossings, and acacia trees glowing in late-afternoon gold. It is raw, loud, unapologetically fun, and guaranteed to end with dusty grins.</p>
             <div class="image-placeholder-card">
                 <img src="assets/images/holiday-activities/6.png" alt="Couple riding quad bikes side by side through scenic red earth bushveld trails in Cullinan at sunset" class="slide-image">
-                <div class="prompt-box">
-                    <div class="prompt-box-text">
-                        <strong>Cullinan Quads:</strong>
-                        <span class="prompt-content">Action shot of an adventurous couple riding two quad bikes side-by-side through red-earth South African bushveld trails in Cullinan at golden sunset, kicking up warm glowing dust clouds, acacia trees in background, joyful energy, cinematic outdoor photography.</span>
-                    </div>
-                    <button class="copy-prompt-btn" onclick="copyImagePrompt(this)">Copy Prompt</button>
-                </div>
             </div>
             <div class="highlight">
                 <h3>Why This Hits Different</h3>
@@ -210,13 +168,6 @@
             <p>How to rule the Cullinan dirt tracks without eating dust.</p>
             <div class="image-placeholder-card">
                 <img src="assets/images/holiday-activities/7.png" alt="Couple taking off helmets laughing at a bushveld viewpoint in Cullinan with cold drinks" class="slide-image">
-                <div class="prompt-box">
-                    <div class="prompt-box-text">
-                        <strong>Bushveld Viewpoint:</strong>
-                        <span class="prompt-content">Romantic candid portrait of a couple resting beside parked quad bikes on a scenic hill in Cullinan South Africa, helmets in hand, warm golden sunset light, laughing and sharing a cold drink, authentic adventure romance.</span>
-                    </div>
-                    <button class="copy-prompt-btn" onclick="copyImagePrompt(this)">Copy Prompt</button>
-                </div>
             </div>
             <div class="two-column">
                 <div class="know-box">
@@ -255,13 +206,6 @@
             <p><strong>The Narrative:</strong> Even the fiercest fire loves watching the sun melt into calm water. Departing from the shores of Kommando Nek Nature Reserve at 16:00, this 2-hour scenic cruise glides across Hartbeespoort Dam beneath the towering Magaliesberg cliffs. With welcome drinks in hand and a gourmet spread of traditional South African hot and cold finger foods, we get two hours where the world slows down to ripple speed.</p>
             <div class="image-placeholder-card">
                 <img src="assets/images/holiday-activities/8.png" alt="Luxury sunset boat cruise on Hartbeespoort Dam with Magaliesberg mountains and South African finger foods" class="slide-image">
-                <div class="prompt-box">
-                    <div class="prompt-box-text">
-                        <strong>Harties Cruise:</strong>
-                        <span class="prompt-content">Romantic couple on the upper deck of a scenic cruise boat on Hartbeespoort Dam at sunset, towering Magaliesberg mountains reflecting in golden water, welcome cocktails and a gourmet platter of South African finger foods, warm breeze, photorealistic.</span>
-                    </div>
-                    <button class="copy-prompt-btn" onclick="copyImagePrompt(this)">Copy Prompt</button>
-                </div>
             </div>
             <div class="highlight">
                 <h3>Bonus Shore Access Included</h3>
@@ -275,13 +219,6 @@
             <p>How to claim the best deck spot and make the Magaliesberg sunset feel private.</p>
             <div class="image-placeholder-card">
                 <img src="assets/images/holiday-activities/9.png" alt="Couple toasting with cocktails at the bow of a boat on Hartbeespoort Dam at twilight" class="slide-image">
-                <div class="prompt-box">
-                    <div class="prompt-box-text">
-                        <strong>Deck Toast:</strong>
-                        <span class="prompt-content">Close-up of two hands clinking cocktail glasses over the wooden railing of a boat on Hartbeespoort Dam during purple and orange twilight, soft bokeh fairy lights on deck, warm intimate mood.</span>
-                    </div>
-                    <button class="copy-prompt-btn" onclick="copyImagePrompt(this)">Copy Prompt</button>
-                </div>
             </div>
             <div class="two-column">
                 <div class="know-box">
@@ -320,13 +257,6 @@
             <p><strong>The Narrative:</strong> Anyone can buy a framed print; we are going to pour two generous glasses of wine, pick up palettes loaded with crimson, ochre, and gold, and paint each other's portraits without letting the other person peek until the final countdown. (Or swap brushes for tufting guns to weave a custom mini-rug together!)</p>
             <div class="image-placeholder-card">
                 <img src="assets/images/holiday-activities/10.png" alt="Couple laughing in a cozy Johannesburg art studio painting each other's portraits with wine and snacks" class="slide-image">
-                <div class="prompt-box">
-                    <div class="prompt-box-text">
-                        <strong>Sip &amp; Paint Duel:</strong>
-                        <span class="prompt-content">Vibrant indoor scene of a Black couple sitting across from each other with two easels in a warm sunlit Johannesburg art studio, holding paintbrushes and red wine glasses, vibrant terracotta and gold paint on canvases, laughing before the big reveal, photorealistic.</span>
-                    </div>
-                    <button class="copy-prompt-btn" onclick="copyImagePrompt(this)">Copy Prompt</button>
-                </div>
             </div>
             <div class="highlight">
                 <h3>What's Included in Our R690 Studio Pass</h3>
@@ -340,13 +270,6 @@
             <p>How to survive the "3-2-1 Turn Your Canvas Around" moment with romance intact.</p>
             <div class="image-placeholder-card">
                 <img src="assets/images/holiday-activities/11.png" alt="Two colorful expressive canvases side by side with wine glasses and paint palettes" class="slide-image">
-                <div class="prompt-box">
-                    <div class="prompt-box-text">
-                        <strong>Canvas Reveal:</strong>
-                        <span class="prompt-content">Two expressive, bold contemporary portrait paintings resting side-by-side on wooden easels, rich warm African palette of crimson, gold, sienna, and deep indigo, surrounded by brushes and wine glasses, warm studio lighting.</span>
-                    </div>
-                    <button class="copy-prompt-btn" onclick="copyImagePrompt(this)">Copy Prompt</button>
-                </div>
             </div>
             <div class="two-column">
                 <div class="know-box">
@@ -385,13 +308,6 @@
             <p><strong>The Narrative:</strong> For a soul that respects lineage, history, and where we come from, walking the rolling dolomitic hills of the Cradle of Humankind feels electric. We explore the ancient limestone wonders and heritage exhibitions, followed by artisan coffee and decadent cake overlooking the Kromdraai valley at a sanctuary bistro.</p>
             <div class="image-placeholder-card">
                 <img src="assets/images/holiday-activities/12.png" alt="Couple walking through scenic dolomitic hills and dramatic architectural archway at Cradle of Humankind" class="slide-image">
-                <div class="prompt-box">
-                    <div class="prompt-box-text">
-                        <strong>Cradle of Humankind:</strong>
-                        <span class="prompt-content">Cinematic shot of a couple walking hand-in-hand along a dramatic stone pathway in the Cradle of Humankind South Africa, golden highveld grasslands, ancient limestone cliffs, warm sunlight beams, deeply soulful and timeless atmosphere.</span>
-                    </div>
-                    <button class="copy-prompt-btn" onclick="copyImagePrompt(this)">Copy Prompt</button>
-                </div>
             </div>
             <div class="heritage-proverb">
                 "Knowing the depth of the roots makes the height of the flame even brighter."
@@ -405,13 +321,6 @@
             <p>How to turn a heritage outing into an intimate, unhurried country escape.</p>
             <div class="image-placeholder-card">
                 <img src="assets/images/holiday-activities/13.png" alt="Artisanal coffee and cake on a rustic wooden deck overlooking the Kromdraai valley" class="slide-image">
-                <div class="prompt-box">
-                    <div class="prompt-box-text">
-                        <strong>Valley Bistro:</strong>
-                        <span class="prompt-content">Two cups of artisanal cappuccino and a rich slice of carrot and pecan cake on a rustic wooden deck overlooking the lush green Kromdraai valley in Muldersdrift, warm morning sun, peaceful country romance.</span>
-                    </div>
-                    <button class="copy-prompt-btn" onclick="copyImagePrompt(this)">Copy Prompt</button>
-                </div>
             </div>
             <div class="two-column">
                 <div class="know-box">
@@ -450,13 +359,6 @@
             <p><strong>The Narrative:</strong> When you date a woman with fire in her veins, you don't do lukewarm adventures. First, we ascend the iconic painted Orlando Cooling Towers where the boldest one in the relationship can take the 70m SCAD Freefall (or we both ride the open-air lift to the 100m suspension bridge view). Then we head straight to Vilakazi Street for smoky street-style tapas, cold drinks, and infectious township soul.</p>
             <div class="image-placeholder-card">
                 <img src="assets/images/holiday-activities/14.png" alt="Vibrant colorful Orlando Towers in Soweto against a blue and gold sky with joyful couple" class="slide-image">
-                <div class="prompt-box">
-                    <div class="prompt-box-text">
-                        <strong>Soweto Towers:</strong>
-                        <span class="prompt-content">Dynamic wide-angle shot of a stylish couple standing beneath the colorful hand-painted murals of the Orlando Cooling Towers in Soweto Johannesburg, vibrant sunlit colours, energetic township atmosphere, photorealistic travel photography.</span>
-                    </div>
-                    <button class="copy-prompt-btn" onclick="copyImagePrompt(this)">Copy Prompt</button>
-                </div>
             </div>
             <div class="highlight">
                 <h3>How the R650 Budget Breaks Down</h3>
@@ -470,13 +372,6 @@
             <p>How to balance high-altitude adrenaline with effortless street-side romance.</p>
             <div class="image-placeholder-card">
                 <img src="assets/images/holiday-activities/15.png" alt="Couple enjoying vibrant outdoor dining and music on Vilakazi Street Soweto" class="slide-image">
-                <div class="prompt-box">
-                    <div class="prompt-box-text">
-                        <strong>Vilakazi Street:</strong>
-                        <span class="prompt-content">Warm candid photo of a couple sharing flame-grilled platter and cold drinks on an open-air balcony along Vilakazi Street Soweto in late afternoon sunshine, lively cultural street scene below, warm smiles.</span>
-                    </div>
-                    <button class="copy-prompt-btn" onclick="copyImagePrompt(this)">Copy Prompt</button>
-                </div>
             </div>
             <div class="two-column">
                 <div class="know-box">
@@ -515,13 +410,6 @@
             <p><strong>The Narrative:</strong> Picture riding side-by-side on gentle, well-schooled horses along quiet bushveld footpaths where impala and zebra graze in the distance, before dismounting at a secluded riverside clearing where a private picnic blanket, cushions, and a chilled basket are waiting just for the two of us.</p>
             <div class="image-placeholder-card">
                 <img src="assets/images/holiday-activities/16.png" alt="Romantic couple on horseback riding towards a secret bushveld picnic under acacia trees" class="slide-image">
-                <div class="prompt-box">
-                    <div class="prompt-box-text">
-                        <strong>Horse Trail &amp; Picnic:</strong>
-                        <span class="prompt-content">Romantic South African couple on two horses riding slowly along a sunlit bushveld trail toward a private luxury picnic setup with woven blankets, cushions, fruit, and sparkling wine under an umbrella thorn acacia tree, cinematic golden light.</span>
-                    </div>
-                    <button class="copy-prompt-btn" onclick="copyImagePrompt(this)">Copy Prompt</button>
-                </div>
             </div>
             <div class="highlight">
                 <h3>Why This Feels Like a Movie Scene</h3>
@@ -535,13 +423,6 @@
             <p>How to make the ride effortless even if neither of us is a full-time jockey.</p>
             <div class="image-placeholder-card">
                 <img src="assets/images/holiday-activities/17.png" alt="Cozy bushveld picnic blanket with woven patterns, strawberries, cheese board, and sparkling drinks" class="slide-image">
-                <div class="prompt-box">
-                    <div class="prompt-box-text">
-                        <strong>Bush Picnic Spread:</strong>
-                        <span class="prompt-content">Close-up of a romantic bushveld picnic on a warm geometric woven blanket under dappled acacia shade: artisanal cheeses, biltong, figs, strawberries, and two flutes of sparkling grape juice, warm natural photography.</span>
-                    </div>
-                    <button class="copy-prompt-btn" onclick="copyImagePrompt(this)">Copy Prompt</button>
-                </div>
             </div>
             <div class="two-column">
                 <div class="know-box">
@@ -580,13 +461,6 @@
             <p><strong>The Narrative:</strong> Built inside restored brick ateliers draped in vertical gardens, Victoria Yards is where Johannesburg's boldest painters, ceramicists, and textile weavers create magic. We wander through open studios admiring contemporary African beadwork, indigo dyes, and fine art, then head up for rooftop sundowners as live acoustic and jazz melodies drift over the eastern skyline.</p>
             <div class="image-placeholder-card">
                 <img src="assets/images/holiday-activities/18.png" alt="Couple exploring red brick art studios and vertical gardens at Victoria Yards Johannesburg" class="slide-image">
-                <div class="prompt-box">
-                    <div class="prompt-box-text">
-                        <strong>Victoria Yards:</strong>
-                        <span class="prompt-content">Stylish couple strolling through Victoria Yards in Johannesburg, warm red-brick industrial buildings covered in lush green vertical gardens, African textile art and ceramics displayed in open studio doorways, warm afternoon sunlight, editorial lifestyle photo.</span>
-                    </div>
-                    <button class="copy-prompt-btn" onclick="copyImagePrompt(this)">Copy Prompt</button>
-                </div>
             </div>
             <div class="heritage-proverb">
                 "Art is the language the heart speaks when words are too small."
@@ -600,13 +474,6 @@
             <p>How to experience Johannesburg's most soulful creative sanctuary like insider collectors.</p>
             <div class="image-placeholder-card">
                 <img src="assets/images/holiday-activities/19.png" alt="Couple enjoying craft gin sundowners and handmade beadwork keepsakes at Victoria Yards" class="slide-image">
-                <div class="prompt-box">
-                    <div class="prompt-box-text">
-                        <strong>Sundowner Jazz &amp; Craft:</strong>
-                        <span class="prompt-content">Close-up of two botanical gin cocktails garnished with rosemary and citrus on a sunlit terrace at Victoria Yards Johannesburg, handmade geometric beaded bracelet resting beside the glasses, warm golden-hour jazz ambiance, photorealistic.</span>
-                    </div>
-                    <button class="copy-prompt-btn" onclick="copyImagePrompt(this)">Copy Prompt</button>
-                </div>
             </div>
             <div class="two-column">
                 <div class="know-box">
@@ -645,13 +512,6 @@
             <p><strong>The Narrative:</strong> Time to test who actually has the better sense of direction when Google Maps is switched off! Hidden inside a lush forest sanctuary in Olifantsfontein, we enter a towering 3D timber-and-hedge maze with elevated bridges, secret corners, and riddle checkpoints — where the first one to reach the central lookout tower wins bragging rights and double-scoop artisanal gelato.</p>
             <div class="image-placeholder-card">
                 <img src="assets/images/holiday-activities/20.png" alt="Playful couple racing through a sunlit 3D wooden and hedge forest maze in Gauteng" class="slide-image">
-                <div class="prompt-box">
-                    <div class="prompt-box-text">
-                        <strong>3D Forest Maze:</strong>
-                        <span class="prompt-content">Joyful couple playfully teasing each other from two different wooden bridges inside a lush sunlit 3D forest maze in Gauteng South Africa, green trees and timber walkways, warm afternoon light, vibrant romantic adventure photography.</span>
-                    </div>
-                    <button class="copy-prompt-btn" onclick="copyImagePrompt(this)">Copy Prompt</button>
-                </div>
             </div>
             <div class="highlight">
                 <h3>The Winner-Takes-All Wager</h3>
@@ -665,13 +525,6 @@
             <p>How to turn a brain-teasing forest labyrinth into non-stop laughter.</p>
             <div class="image-placeholder-card">
                 <img src="assets/images/holiday-activities/21.png" alt="Couple celebrating with artisanal gelato cones in a sunny garden courtyard after completing the maze" class="slide-image">
-                <div class="prompt-box">
-                    <div class="prompt-box-text">
-                        <strong>Victory Gelato:</strong>
-                        <span class="prompt-content">Close-up of a happy Black South African couple clinking two artisanal waffle cones of pistachio and berry gelato in a sunlit garden courtyard surrounded by greenery, laughing together, warm lifestyle photography.</span>
-                    </div>
-                    <button class="copy-prompt-btn" onclick="copyImagePrompt(this)">Copy Prompt</button>
-                </div>
             </div>
             <div class="two-column">
                 <div class="know-box">
@@ -710,13 +563,6 @@
             <p><strong>The Narrative:</strong> The most romantic finale doesn't need a waiter — it just needs the second-highest natural ridge in Johannesburg, a warm patterned blanket in the open car boot, a thermos of spiced hot chocolate, and the entire city glittering from Sandton to the Magaliesberg like a sea of fallen stars.</p>
             <div class="image-placeholder-card">
                 <img src="assets/images/holiday-activities/22.png" alt="Romantic couple sitting on a cozy blanket overlooking the glowing Johannesburg skyline at twilight from Northcliff Ridge" class="slide-image">
-                <div class="prompt-box">
-                    <div class="prompt-box-text">
-                        <strong>Northcliff Ridge Sunset:</strong>
-                        <span class="prompt-content">Romantic couple wrapped in a warm Southern African geometric patterned blanket sitting on the rocky crest of Northcliff Ridge at twilight, panoramic view of Johannesburg city lights sparkling below under a deep crimson and indigo sunset sky, thermos and snacks beside them, cinematic 8k.</span>
-                    </div>
-                    <button class="copy-prompt-btn" onclick="copyImagePrompt(this)">Copy Prompt</button>
-                </div>
             </div>
             <div class="heritage-proverb">
                 "When the city lights bow beneath your feet, the only thing brighter is the person beside you."
@@ -730,13 +576,6 @@
             <p>How to pull off an effortless, five-star hilltop sunset date for R200.</p>
             <div class="image-placeholder-card">
                 <img src="assets/images/holiday-activities/23.png" alt="Cozy car boot picnic setup with fairy lights, warm mugs, and panoramic city twilight view" class="slide-image">
-                <div class="prompt-box">
-                    <div class="prompt-box-text">
-                        <strong>Boot Picnic Glow:</strong>
-                        <span class="prompt-content">Cozy romantic car-boot picnic overlooking city lights at dusk, battery fairy lights strung inside the open hatch, plush cushions, woven terracotta blanket, two steaming mugs of hot chocolate, and chocolate-dipped strawberries, warm bokeh.</span>
-                    </div>
-                    <button class="copy-prompt-btn" onclick="copyImagePrompt(this)">Copy Prompt</button>
-                </div>
             </div>
             <div class="two-column">
                 <div class="know-box">
@@ -770,13 +609,6 @@
             <p>Click any experience card below to toggle it in or out of our holiday lineup, or slide the Spontaneous Spoil Buffer to customize our exact spend under <strong>R7,000</strong>.</p>
             <div class="image-placeholder-card">
                 <img src="assets/images/holiday-activities/24.png" alt="Flatlay of South African holiday planning notebook, sunglasses, car keys, and wine glasses" class="slide-image">
-                <div class="prompt-box">
-                    <div class="prompt-box-text">
-                        <strong>Smart Planner:</strong>
-                        <span class="prompt-content">Warm editorial flatlay of a luxury leather travel journal open on a wooden table with a gold pen, sunglasses, polaroid photos of Gauteng adventures, and two glasses of rosé in warm sunlight.</span>
-                    </div>
-                    <button class="copy-prompt-btn" onclick="copyImagePrompt(this)">Copy Prompt</button>
-                </div>
             </div>
             <div class="interactive-lab">
                 <div class="lab-title">Interactive R7,000 Gauteng Funnel Calculator (Click Cards to Toggle)</div>
@@ -808,13 +640,6 @@
             <p>Lock in your answers to these 4 playful holiday rules to generate our official Gauteng Couple Playbook certificate!</p>
             <div class="image-placeholder-card">
                 <img src="assets/images/holiday-activities/25.png" alt="Romantic South African couple toasting under sparkling fairy lights celebrating their holiday itinerary" class="slide-image">
-                <div class="prompt-box">
-                    <div class="prompt-box-text">
-                        <strong>Finale Toast:</strong>
-                        <span class="prompt-content">Celebratory portrait of a glowing Black South African couple clinking champagne glasses under warm golden fairy lights at night, joyful laughter, fiery romance and deep affection, cinematic 8k photography.</span>
-                    </div>
-                    <button class="copy-prompt-btn" onclick="copyImagePrompt(this)">Copy Prompt</button>
-                </div>
             </div>
 
             <div class="quiz-container">
