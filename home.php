@@ -1,5 +1,5 @@
 <?php
-    $companyName = "Special Holiday Activities";
+    $companyName = "Royal Institute of Technology & Engineering - Tinotel";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,6 +16,7 @@
     </div>
 
     <div class="presentations-container">
+        <!--
         <div class="presentation-card holiday-card" onclick="navigateToPresentation('holiday-activities.php')">
             <div class="holiday-ribbon">✨ Special Couple Edition</div>
             <div class="holiday-ambient-glow"></div>
@@ -41,8 +42,8 @@
             </ul>
             <button class="start-button">Explore The Holiday Activities ➔</button>
         </div>
+        -->
 
-        <!--
         <div class="presentation-card secadmin-card" onclick="navigateToPresentation('ai-for-secretaries-and-admin.php')">
             <div class="card-icon secadmin-icon">SA</div>
             <h2 class="card-title">Day 1: AI for Secretaries & Admin</h2>
@@ -250,7 +251,6 @@
             </ul>
             <button class="start-button">Start Support</button>
         </div>
-        -->
     </div>
 
     <div class="footer">
