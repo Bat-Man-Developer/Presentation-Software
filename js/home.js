@@ -79,20 +79,6 @@ document.querySelectorAll('.presentation-card').forEach(card => {
     });
 });
 
-// Initialize particles when page loads
-window.addEventListener('load', () => {
-    createParticles();
-});
-
-// Handle orientation and resize events
-window.addEventListener('orientationchange', () => {
-    setTimeout(handleOrientationChange, 100);
-});
-
-window.addEventListener('resize', () => {
-    handleOrientationChange();
-});
-
 // Add loading states for better UX
 window.addEventListener('beforeunload', () => {
     document.body.style.opacity = '0.7';
