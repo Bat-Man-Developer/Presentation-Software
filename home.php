@@ -42,7 +42,6 @@
             </ul>
             <button class="start-button">Explore The Holiday Activities ➔</button>
         </div>
-        -->
 
         <div class="presentation-card secadmin-card" onclick="navigateToPresentation('ai-for-secretaries-and-admin.php')">
             <div class="card-icon secadmin-icon">SA</div>
@@ -204,6 +203,23 @@
             <button class="start-button">Start HR Security</button>
         </div>
 
+        <div class="presentation-card techsupport-card" onclick="navigateToPresentation('technical-support.php')">
+            <div class="card-icon techsupport-icon">TS</div>
+            <h2 class="card-title">Technical Support & Helpdesk</h2>
+            <p class="card-description">
+                Master IT Helpdesk excellence, methodical troubleshooting strategies, and effective customer communication.
+            </p>
+            <ul class="card-features">
+                <li>SLA & Ticket Priority Management</li>
+                <li>CompTIA Troubleshooting Methodology</li>
+                <li>Network & System Diagnostics</li>
+                <li>Remote Support Best Practices</li>
+                <li>Knowledge Base & Incident Management</li>
+            </ul>
+            <button class="start-button">Start Support</button>
+        </div>
+        -->
+
         <div class="presentation-card literacy-card" onclick="navigateToPresentation('computer-literacy-and-ai.php')">
             <div class="card-icon literacy-icon">CL</div>
             <h2 class="card-title">Computer Literacy & AI</h2>
@@ -234,22 +250,6 @@
                 <li>What-If Analysis & Forecasting</li>
             </ul>
             <button class="start-button">Start Excel</button>
-        </div>
-
-        <div class="presentation-card techsupport-card" onclick="navigateToPresentation('technical-support.php')">
-            <div class="card-icon techsupport-icon">TS</div>
-            <h2 class="card-title">Technical Support & Helpdesk</h2>
-            <p class="card-description">
-                Master IT Helpdesk excellence, methodical troubleshooting strategies, and effective customer communication.
-            </p>
-            <ul class="card-features">
-                <li>SLA & Ticket Priority Management</li>
-                <li>CompTIA Troubleshooting Methodology</li>
-                <li>Network & System Diagnostics</li>
-                <li>Remote Support Best Practices</li>
-                <li>Knowledge Base & Incident Management</li>
-            </ul>
-            <button class="start-button">Start Support</button>
         </div>
     </div>
 
