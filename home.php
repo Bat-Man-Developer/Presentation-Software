@@ -237,19 +237,51 @@
         </div>
 
         <div class="presentation-card excel-card" onclick="navigateToPresentation('advanced-microsoft-excel.php')">
-            <div class="card-icon excel-icon">XL</div>
-            <h2 class="card-title">Advanced Microsoft Excel</h2>
+            <div class="card-icon excel-icon">X1</div>
+            <h2 class="card-title">Day 1: Advanced Excel (SO 1)</h2>
             <p class="card-description">
-                Unlock the full potential of Excel with advanced data modeling, automation, and business intelligence techniques.
+                Unit Standard 116943 — Specific Outcome 1: Create, edit, style, move, resize, and delete professional Excel graphs and charts.
             </p>
             <ul class="card-features">
-                <li>Advanced Formulas & Logic Arrays</li>
-                <li>Power Query & Data Modeling</li>
-                <li>Pivot Tables & Interactive Dashboards</li>
-                <li>VBA Macros & Workflow Automation</li>
-                <li>What-If Analysis & Forecasting</li>
+                <li>Pie, Bar, Line, Scatter &amp; Area graphs</li>
+                <li>Parts of a chart &amp; chart creation</li>
+                <li>Chart Tools: Design, Layout &amp; Format</li>
+                <li>Axis scaling, titles &amp; 3-D backgrounds</li>
+                <li>Moving, resizing &amp; deleting charts</li>
             </ul>
-            <button class="start-button">Start Excel</button>
+            <button class="start-button">Start Day 1</button>
+        </div>
+
+        <div class="presentation-card excel-card" onclick="navigateToPresentation('advanced-microsoft-excel2.php')">
+            <div class="card-icon excel-icon">X2</div>
+            <h2 class="card-title">Day 2: Advanced Excel (SO 2)</h2>
+            <p class="card-description">
+                Unit Standard 116943 — Specific Outcome 2: Verify external data files and import external data sources into Excel accurately.
+            </p>
+            <ul class="card-features">
+                <li>Internal vs. external data sources</li>
+                <li>Checking file compatibility &amp; format</li>
+                <li>Get External Data (Text, CSV, PRN, Word)</li>
+                <li>Text Import Wizard (Steps 1 to 3)</li>
+                <li>Delimiters, data types &amp; import verification</li>
+            </ul>
+            <button class="start-button">Start Day 2</button>
+        </div>
+
+        <div class="presentation-card excel-card" onclick="navigateToPresentation('advanced-microsoft-excel3.php')">
+            <div class="card-icon excel-icon">X3</div>
+            <h2 class="card-title">Day 3: Advanced Excel (SO 3)</h2>
+            <p class="card-description">
+                Unit Standard 116943 — Specific Outcome 3: Insert, copy, move, resize, format, and draw visual objects in a spreadsheet.
+            </p>
+            <ul class="card-features">
+                <li>Inserting Clip Art &amp; Pictures from file</li>
+                <li>Link to File vs. Insert and Link</li>
+                <li>Copy, Cut, Paste &amp; Format Object sizing</li>
+                <li>Drawing &amp; rotating AutoShapes</li>
+                <li>Shape Fill, Shape Outline &amp; styling</li>
+            </ul>
+            <button class="start-button">Start Day 3</button>
         </div>
     </div>
 
