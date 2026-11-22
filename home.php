@@ -220,25 +220,9 @@
         </div>
         -->
 
-        <div class="presentation-card literacy-card" onclick="navigateToPresentation('computer-literacy-and-ai.php')">
-            <div class="card-icon literacy-icon">CL</div>
-            <h2 class="card-title">Computer Literacy & AI</h2>
-            <p class="card-description">
-                Master essential GUI tools like Word and Excel while supercharging your workflow using ChatGPT as your intelligent assistant.
-            </p>
-            <ul class="card-features">
-                <li>GUI Word Processing & AI drafting</li>
-                <li>Spreadsheet formulas with ChatGPT</li>
-                <li>Smart Web Search & Research</li>
-                <li>AI-powered document formatting</li>
-                <li>Prompt engineering basics</li>
-            </ul>
-            <button class="start-button">Start Literacy</button>
-        </div>
-
         <div class="presentation-card excel-card" onclick="navigateToPresentation('advanced-microsoft-excel.php')">
             <div class="card-icon excel-icon">X1</div>
-            <h2 class="card-title">Day 1: Advanced Excel (SO 1)</h2>
+            <h2 class="card-title">Day 1: Advanced Excel (Graphs)</h2>
             <p class="card-description">
                 Unit Standard 116943 — Specific Outcome 1: Create, edit, style, move, resize, and delete professional Excel graphs and charts.
             </p>
@@ -254,7 +238,7 @@
 
         <div class="presentation-card excel-card" onclick="navigateToPresentation('advanced-microsoft-excel2.php')">
             <div class="card-icon excel-icon">X2</div>
-            <h2 class="card-title">Day 2: Advanced Excel (SO 2)</h2>
+            <h2 class="card-title">Day 2: Advanced Excel (File Handling)</h2>
             <p class="card-description">
                 Unit Standard 116943 — Specific Outcome 2: Verify external data files and import external data sources into Excel accurately.
             </p>
@@ -270,7 +254,7 @@
 
         <div class="presentation-card excel-card" onclick="navigateToPresentation('advanced-microsoft-excel3.php')">
             <div class="card-icon excel-icon">X3</div>
-            <h2 class="card-title">Day 3: Advanced Excel (SO 3)</h2>
+            <h2 class="card-title">Day 3: Advanced Excel (Objects)</h2>
             <p class="card-description">
                 Unit Standard 116943 — Specific Outcome 3: Insert, copy, move, resize, format, and draw visual objects in a spreadsheet.
             </p>
